@@ -1,0 +1,42 @@
+*{
+    font-family: "Bold Arial" , sans-serif;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li a:hover{
+    color: #f6703f;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.encabezado{
+    background-color: #736f6f;
+    padding: 20px;
+}
+.encabezado ul{
+    display: flex;
+    justify-content: center;
+}
+.container_players {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.rectangulo {
+   padding: 30px;
+}
+.rectangulo img {
+    width: 100%;
+    height: 100%;
+}
