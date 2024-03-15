@@ -1,0 +1,44 @@
+*{
+    font-family: "Bold Arial", sans-serif;
+    margin: 0;
+
+}
+li{
+    list-style: none;
+    display: inline;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li a:hover{
+    color: #f6703f;
+}
+.encabezado{
+    background-color: #736f6f;
+    padding: 20px;
+}
+.encabezado ul{
+    display: flex;
+    justify-content: center;
+}
+.explicacion{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.explicacion span{
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #f6703f;
+    border-radius: 10px;
+    background-color: #f6703f;
+    color: #ffffff;
+}
+.explicacion h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
